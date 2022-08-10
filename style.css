@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: #fff;
+}
+.icon {
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.nav-border {
+  border-bottom: 1px solid black;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.menu {
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 20px 0;
+}
+ul a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 12px;
+  font-family: "Soehne web buch", sans-serif;
+  font-size: 15px;
+  line-height: 100%;
+}
+li {
+  padding-top: 10px;
+}
+li:hover {
+  text-decoration: underline;
+}
+button {
+  display: flex;
+  height: 38px;
+  padding: 9px 28px 10px 28px;
+  border-radius: 20px;
+  border: none;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+.btn {
+  display: flex;
+  font-size: 17px;
+  font-family: "Soehne web buch", sans-serif;
+  line-height: 80%;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-a {
+  color: #fff;
+}
+button:hover {
+  background-color: rgb(56, 55, 55);
+}
+/* ------------- SECTION FIRST --------------------*/
+
+.container {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.image-h1 {
+  width: 50vh;
+  margin-left: 2vh;
+  padding-bottom: 0.3vh;
+  padding-top: 40px;
+}
+.first-heading-div {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.first-heading {
+  font-family: "Gt super text book", Georgia, sans-serif;
+  color: #000;
+  font-size: 7.3vw;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: -0.35vw;
+  padding-top: 30px;
+}
+.dot {
+  font-size: 140.16px;
+  padding-top: 8px;
+}
+/* -------NEW SECTION  ------- */
+.row {
+  display: flex;
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  background-color: #fff;
+  height: auto;
+}
+.text-col1 {
+  display: flex;
+  /* border-right: 1px solid black; */
+  width: 50%;
+  padding: 30px;
+}
+
+.text-heading {
+  display: flex;
+  padding: 0 10px;
+  font-family: "Soehne web buch", sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 127%;
+  font-weight: 400;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* ----------SECOND SECTION-------------- */
+
+.contact-name {
+  background-color: #ffd1b9;
+  height: auto;
+  display: block;
+  padding: 0 220px;
+}
+
+.contact-heading {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Gt super text book", Georgia, sans-serif;
+  /* font-size: 40px; */
+  color: #000;
+  font-size: 7.3vw;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: -0.35vw;
+}
+.para {
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  font-family: "Soehne web buch", sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 127%;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 21% 0 21%;
+}
+/* --------TRI COLUM------ */
+.tri-col {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+/* .col {
+  display: flex;
+} */
+
+.col-a {
+  display: flex;
+  height: 60px;
+  width: 200%;
+  padding: 10px 0;
+  justify-content: flex-start;
+  color: #000;
+  align-items: center;
+  border-top: 1px solid #000;
+  text-decoration: none;
+}
+.col-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.col-a-last {
+  border-bottom: 1px solid #000;
+  margin-bottom: 60px;
+}
+.image-last {
+  width: 20vh;
+  display: flex;
+  margin-top: 20px;
+}
+footer {
+  height: auto;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
